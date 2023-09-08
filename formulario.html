@@ -1,0 +1,87 @@
+<main>
+    <table>
+        <tr>
+            <th>
+                <form action="procesar_apellido.php" method="POST">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required> 
+                </form>
+            </th>
+            <th>
+                <form action="procesar_nombre.php" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <form action="procesar_dni.php" method="POST">
+                    <label for="DNI">DNI:</label>
+                    <input type="number" id="DNI" name="DNI" required>
+                </form>
+            </th>
+            <th>
+                <form action="procesar_nacimiento.php" method="POST">
+                    <label for="fecha_nacimiento">Fecha nacimiento:</label>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <form action="procesar_domicilio.php" method="POST">
+                    <label for="domicilio">Domicilio:</label>
+                    <input type="text" id="domicilio" name="domicilio" required>
+                </form>
+            </th>
+            <th>
+                <form action="procesar_localidad.php" method="POST">
+                    <label for="localidad">Localidad:</label>
+                    <input type="text" id="localidad" name="localidad" required>
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th><h3>Idiomas que conoce </h3></th>
+        </tr>
+        <tr>
+            <th>
+                <form action="procesar_espanol.php" method="POST">
+                    <label for="espanol">Porcentaje de Conocimiento de Español:</label>
+                    <input type="range" id="espanol" name="espanol" required>
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <form action="procesar_ingles.php" method="POST">
+                    <label for="ingles">Porcentaje de Conocimiento de Inglés:</label>
+                    <input type="range" id="ingles" name="ingles" required>
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <form action="procesar_frances.php" method="POST">
+                    <label for="frances">Porcentaje de Conocimiento de Francés:</label>
+                    <input type="range" id="frances" name="frances" required>
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <form action="procesar_chino.php" method="POST">
+                    <label for="chino">Porcentaje de Conocimiento de Chino:</label>
+                    <input type="range" id="chino" name="chino" required>
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </th>
+        </tr>
+    </table>
+</main>
